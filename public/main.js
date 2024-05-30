@@ -28,7 +28,7 @@ $(function() {
   const addParticipantsMessage = (data) => {
     let message = '';
     if (data.numUsers === 1) {
-      message +=  username;
+      message +=  ` `;
     } else {
       message += ` `;
     }
